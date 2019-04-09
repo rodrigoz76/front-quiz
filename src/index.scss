@@ -28,6 +28,31 @@ main {
 
 @media only screen and (max-width: 1024px) {
   body {
+
+    #levisLogo{
+      padding-left: 5px;
+    }
+
+    .mainMenu{
+      padding: 0px;
+
+      .mainMenuLi{
+        padding: 5px 10px;
+      }
+    }
+
+    .headerContacto{
+      padding: 20px 10px 0px 5px;
+    }
+
+    .headerSearch{
+      padding-top: 18px;
+
+      input{
+        width: 150px;
+      }
+    }
+
     .filters {
       width: 20%;
     }
@@ -44,6 +69,31 @@ main {
 
 @media only screen and (max-width: 640px) {
   body {
+
+    .mainMenuLi a h4{
+      font-size: 12px;
+    }
+
+    .headerContacto h4{
+      font-size: 12px;
+    }
+
+    .headerSearch{
+
+      input{
+        width: 100px;
+        height: 12px;
+        margin-top: 0px;
+        padding: 0,5px;
+        font-size: 10px;
+      }
+
+      button{
+        font-size: 10px;
+        height: 18px;
+      }
+    }
+
     .filters {
       width: 25%;
     }
@@ -91,7 +141,71 @@ main {
       padding: 2%;
       margin-top: 42px;
     }
+    .Encabezado{
+      width: 50%;
+      display: block;
+      position: relative;
+      
+      #levisLogo{
+        position: absolute;
+        top: -50px;
+        left: 0px;
+      }
+      .menuContainer{    
+      padding: 0px 0px 0px 10px;
 
+
+        .mainMenu{
+
+          .mainMenuLi{
+            display: inline;
+            padding: 0px 10px 0px 10px;
+
+            a {
+              height: 24px;
+            }
+
+            .mainSubmenu{
+
+              .mainSubmenuLi{
+                display: inline;
+                position: relative;
+                top: -42px;
+                left: 60px;
+                padding: 2px 10px 2px 10px;
+
+                font-size: 12px;
+              }
+              .mainSubmenuLi:hover{
+                background: #ccc;
+              }
+            }
+          }
+        }
+      }
+
+      .headerContacto{
+      padding: 0px;  
+
+        h4{
+          padding-left: 10px;
+        }
+      }
+      form{
+
+        width: 300px;
+        margin-bottom: 20px;
+
+        .headerSearch{
+          padding-left: 10px;
+
+            input{
+              width: 200px;
+            }
+
+        }
+      }
+    }
     .filters {
       width: 100%;
       margin-right: 0;

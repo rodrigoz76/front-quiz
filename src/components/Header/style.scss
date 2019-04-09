@@ -1,0 +1,71 @@
+.Encabezado{
+	width: 100%;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	display: flex;
+}
+
+#levisLogo{
+	width: 100px;
+	height: 40px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.menuContainer{
+	padding: 15px;
+}
+.mainMenu{
+	display: inline;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.mainMenuLi{
+	padding: 0px 20px 0px 20px;
+	display: inline-block;
+}
+.mainMenuLi:hover{
+	cursor: pointer;
+}
+.mainMenuLi:hover .mainSubmenu{
+	display: block;
+}
+.mainMenuLi h4{
+	margin: 0px;
+
+}
+.mainSubmenu{
+	position: absolute;
+	width: 80px;
+	display: none;
+	padding: 0px;
+	margin: 0px;
+}
+.mainSubmenuLi{
+  	display: block;
+	background: rgba(255,255,255,0.9);
+	margin: 0px;
+	padding: 0px;
+}
+.mainSubmenuLi a {
+	display: block !important;
+}
+.headerContacto{
+	padding: 15px;
+}
+.headerContacto:hover{
+	cursor: pointer;
+}
+.headerContacto h4{
+	margin: 0px;
+}
+.headerSearch{
+	padding: 15px 0px 0px 20px;
+
+	button{
+		background: #fff;
+		border: none;
+	}
+}
+
